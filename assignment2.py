@@ -285,10 +285,10 @@ for event in museum_schedule:
 visitor1 = Visitor("Aisha", 19)
 visitor_category1 = Visitor_category((18, 60))
 visitor_category1 = Visitor_category((18, 60))
-ticket1 = Ticket("Regular", 100.0, datetime.now(), visitor1, "General Admission")
+ticket1 = Ticket("Regular", 63.0, datetime.now(), visitor1, "General Admission")
 ticket2 = Ticket("Child", 0.0, datetime.now(), visitor1, "Children under 18")
 ticket3 = Ticket("Senior", 0.0, datetime.now(), visitor1, "Seniors above 60")
-ticket4 = Ticket("Group", 70, datetime.now(), visitor1, "Group Discount")
+ticket4 = Ticket("Group", 31.5, datetime.now(), visitor1, "Group Discount")
 
 total_bill = ticket1.price + ticket2.price + ticket3.price + ticket4.price
 total_bill_with_vat = total_bill * 1.05
